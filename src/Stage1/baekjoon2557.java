@@ -1,4 +1,6 @@
 //1-1. Hello World  https://www.acmicpc.net/problem/2557
+package Stage1;
+
 public class baekjoon2557 {
  
     public static void main(String[] args) {
