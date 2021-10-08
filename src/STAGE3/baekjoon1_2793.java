@@ -3,7 +3,7 @@ package STAGE3;
 
 import java.util.Scanner;
 
-public class baekjoon2793 {
+public class baekjoon1_2793 {
 	
 	public static void main(String[] args) {
 		
