@@ -1,4 +1,4 @@
-//3-9.별 찍기 - 1  /  https://www.acmicpc.net/problem/2438
+//3-10.별 찍기 - 2  /  https://www.acmicpc.net/problem/2439
 package STAGE3;
 
 import java.util.Scanner;
