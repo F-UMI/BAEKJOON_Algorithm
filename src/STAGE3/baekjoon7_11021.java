@@ -1,4 +1,4 @@
-//3-6.A+B -7  /  https://www.acmicpc.net/problem/11021
+//3-7.A+B -7  /  https://www.acmicpc.net/problem/11021
 package STAGE3;
 
 import java.util.Scanner;
