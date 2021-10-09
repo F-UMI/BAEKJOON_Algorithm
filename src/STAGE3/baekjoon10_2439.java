@@ -9,15 +9,15 @@ public class baekjoon10_2439 {
 
 		Scanner scanner = new Scanner(System.in);
 		int a = scanner.nextInt();
-
+		
 		for (int i = 1; i <= a; i++) {
-			for (int j = a - 1; j <= 1; j--) {
+			for (int j = 1; j <= a - i; j++) {
 				System.out.print(" ");
 			}
-			for (int k = 1; k >= a; k++) {
+			for (int k = 0; k < i; k++) {
 				System.out.print("*");
 			}
-			System.out.println("");
+			System.out.println();
 		}
 	}
 }
