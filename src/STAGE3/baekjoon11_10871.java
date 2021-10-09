@@ -1,23 +1,27 @@
-//3-9.별 찍기 - 1  /  https://www.acmicpc.net/problem/2438
+//3-11.X보다 작은 수  /  https://www.acmicpc.net/problem/10871
 package STAGE3;
 
 import java.util.Scanner;
 
 public class baekjoon11_10871 {
-
 	public static void main(String[] args) {
-
-		Scanner scanner = new Scanner(System.in);
-		int a = scanner.nextInt();
-		
-		for (int i = 1; i <= a; i++) {
-			for (int j = 1; j <= a - i; j++) {
-				System.out.print(" ");
+		Scanner in = new Scanner(System.in);
+ 
+		int N = in.nextInt();
+		int X = in.nextInt();
+		int arr[] = new int[N];
+        
+		for (int i = 0; i < N; i++) {
+			arr[i] = in.nextInt();
+		}
+ 
+		in.close();
+        
+		for (int i = 0; i < N; i++) {
+			if (arr[i] < X) {
+				System.out.print(arr[i] + " ");
 			}
-			for (int k = 0; k < i; k++) {
-				System.out.print("*");
-			}
-			System.out.println();
 		}
 	}
 }
+ 
