@@ -1,4 +1,4 @@
-//3-5.N찍기  /  https://www.acmicpc.net/problem/2742
+//3-6.기찍 N  /  https://www.acmicpc.net/problem/2742
 package STAGE3;
 
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class baekjoon6_2742 {
 		
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
-		for (int i = n; i == 1; --i) {
+		for (int i = n; i > 0; i--) {
 			System.out.println(i);
 		}
 	}
