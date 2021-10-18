@@ -5,7 +5,7 @@ package STAGE7;
  * fileName : baekjoon6_1152
  * author : Yunsup Shin
  * date : 2021-10-18
- * description :
+ * description : 단어의 개수  | https://www.acmicpc.net/problem/1152
  * ===========================================================
  * DATE AUTHOR NOTE
  * -----------------------------------------------------------
