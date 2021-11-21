@@ -3,34 +3,43 @@ package SeLab.Solution_2021_11_15;
 import java.util.Scanner;
 
 public class baekjoon8958 {
+    public static final int ZERO = 0;
+    public static final String REGEX = "";
+    public static final String CORRECT = "O";
+    public static final String WRONG = "X";
+
     public static void main(String[] args) {
 
-        //구현에 필요한 변수 선언
         Scanner scanner = new Scanner(System.in);
         int testCaseNum = scanner.nextInt();
         int[] testCaseResult = new int[testCaseNum];
-        int testCaseTotalScore = 0;
-
-        //테스트 케이스별 문자열을 통한 점수 계산 반복문
         for (int i = 0; i < testCaseNum; i++){
-            String[] TestCase = scanner.next().split("");
-            int score = 0;
-            for (String answer : TestCase){
-                if(answer.equals("O")) {
-                    score++;
-                    testCaseTotalScore += score;
-                } else {
-                    score = 0;
-                }
-            }
-            testCaseResult[i] = testCaseTotalScore;
-            testCaseTotalScore = 0;
+            String[] TestCase = scanner.next().split(REGEX);
+            testCaseResult[i] = gradeTestCase(TestCase, ZERO, ZERO);
         }
+        scanner.close();
 
-        //계산된 결과 출력
         for (int result : testCaseResult){
             System.out.println(result);
         }
-
     }
+
+    public static int gradeTestCase(String[] TestCase, int score, int testCaseTotalScore) {
+        for (String answer : TestCase){
+            testCaseTotalScore =
+                    answer.equals(CORRECT) ? isCorrect(score , testCaseTotalScore) : isWrong(score);
+        }
+        return testCaseTotalScore;
+    }
+
+    public static int isCorrect(int score, int testCaseTotalScore) {
+        score++;
+        return testCaseTotalScore += score;
+    }
+
+    public static int isWrong(int score) {
+        return score = 0;
+    }
+
+
 }
