@@ -8,11 +8,11 @@
 
 ## TABLE
 
-* ### [GitHub Flow](#github-flow)
+* ### [GitHub Flow](#📃-github-flow)
 * ### [GitHub Flow 의 장단점](#github-flow-의-장단점)
-* ### [Git Flow](#git-flow)
+* ### [Git Flow](#📃-git-flow)
 * ### [Git Flow 의 장단점](git-flow-의-장단점)
-* ### [GitLab-Flow](#gitlab-flow)
+* ### [GitLab-Flow](#📃-gitlab-flow)
 
 ***
 
@@ -174,6 +174,7 @@ images.githubusercontent.com/54024213/143217366-0b0c9740-ef11-4451-976c-97f43d35
 <br>
 
 ### 실행 흐름
+
 <div style="text-align: center">
 <img height="800" src="https://user-images.githubusercontent.com/54024213/143217355-c71fde39-b984-4aa8-af48-3cf90c4b062b.png"/>
 </div>
@@ -190,26 +191,31 @@ images.githubusercontent.com/54024213/143217366-0b0c9740-ef11-4451-976c-97f43d35
 
 * `master`에서 버그 발견시 `hotfix` 브랜치 생성 -> `master` 와 `develop`에 동시화
   <br><br>
+
 ***
+
 ## Git Flow 의 장단점
 
 ### GOOD
-* `feature` 브랜치는 `sourcetree / gitkraken` 같은 개발자 로컬 repo 에 저장 관리하여 타 개발자의 영향 없이 순수 개발을 진행할 수 있다. 
+
+* `feature` 브랜치는 `sourcetree / gitkraken` 같은 개발자 로컬 repo 에 저장 관리하여 타 개발자의 영향 없이 순수 개발을 진행할 수 있다.
 * 브랜치를 세분화 하여 개발에 집중할 수 있도록 `merge` / 충돌 에 대비할 수 있으며 직관적인 구성이 가능하다.
 * 체계적인 개발 프로세스를 통해 효율적인 테스트 환경을 구축할 수 있도록 지원한다.
 * `release` 브랜치를 적용 하여 다중 버전의 배포가 가능하도록 구성할 수 잇으며, 다양한 배포 전략을 적용할 수 있다.
-<br><br>
+  <br><br>
 
 ### BAD
+
 * 브랜치 전략의 복잡도에 따라 개발 프로세스및 릴리즈 주기가 지나치게 복잡해지고 느려질 수 있다.
 * `feature` 브랜지 `merge` 및 `review` 에 많은 시간이 소모된다.
 * `Git Flow `사상은 대체로 장기 프로젝트에 적합한 방식으로 민첩한 배포가 필요한 프로젝트에는 적합하지 않다.
+
 ***
+
 ## [GitLab Flow](https://scottchacon.com/2011/08/31/github-flow.html)
 
 * `master, feature, production` 브랜치가 존재
 * `issue tracking`을 연동해 프로세스르 단순화 햐여` merge request`를 통해 승인이 되는 `issue` 만 `merge` 하도록 한다.
-
 
 ### `feature`
 
@@ -221,7 +227,7 @@ images.githubusercontent.com/54024213/143217366-0b0c9740-ef11-4451-976c-97f43d35
 
 ### `production`
 
-* Git Flow의 master와 같다. 배포 브랜치로서  안정된 소스코드가 되었을때 해당 브랜체에 병합하여 배포를 진행한다.
+* Git Flow의 master와 같다. 배포 브랜치로서 안정된 소스코드가 되었을때 해당 브랜체에 병합하여 배포를 진행한다.
 * 견고한 test 를 원할 경우 pre-production 브랜치를 생성해 병합전 TEST SERVER를 통해 확인할 수 있다.
 * 
 
