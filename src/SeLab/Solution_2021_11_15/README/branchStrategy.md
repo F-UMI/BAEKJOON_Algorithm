@@ -8,16 +8,15 @@
 
 ## TABLE
 
-* ### [GitHub-Flow](#gitHub-flow)
-* ### [GitHub-Flow 의 장단점](gitHub-flow-의-장단점)
-* ### [Git-Flow](#git-flow)
-* ### [Git-Flow 의 장단점](git-flow-의-장단점)
+* ### [GitHub Flow](#github-flow)
+* ### [GitHub Flow 의 장단점](#github-flow-의-장단점)
+* ### [Git Flow](#git-flow)
+* ### [Git Flow 의 장단점](git-flow-의-장단점)
 * ### [GitLab-Flow](#gitlab-flow)
-* ### [GitLab-Flow 의 장단점](#gitlab-flow-의-장단점)
 
 ***
 
-## 📃 GitHub-Flow
+## 📃 GitHub Flow
 
 ***
 
@@ -29,7 +28,7 @@
 ### 1. 브랜치는 어느 상황이든 배포가 가능하다.
 
 <div style="text-align: center;">
-<img style="" height="204" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\hubflow1.png" width="602"/>
+<img style="" height="204" src="https://user-images.githubusercontent.com/54024213/143216398-03dc59f0-ad91-4dd6-97c9-6ad0fbee0303.png" width="602"/>
  </div>
 <br>
 
@@ -43,7 +42,7 @@
 ### 2. master에서 새로운일을 시작하기위해 브랜치를 만들때 이름을 명확히 한다.
 
 <div style="text-align: center;">
-<img style="" height="204" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\hubflow2.png" width="602"/>
+<img style="" height="204" src="https://user-images.githubusercontent.com/54024213/143216398-03dc59f0-ad91-4dd6-97c9-6ad0fbee0303.png" width="602"/>
  </div>
 <br>
 
@@ -61,7 +60,7 @@
 ### 4. FeedBack | 도움 필요할때 || [merge](#merge) 준비 완료시 [PULL REQUEST](#pull-request) 생성
 
 <div style="text-align: center;">
-<img style="" height="204" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\hubflow3.png" width="602"/>
+<img style="" height="204" src="https://user-images.githubusercontent.com/54024213/143216986-27fa91c5-ab1d-4a6a-9665-98761d900209.png" width="602"/>
  </div>
 
 * `merge` 가 이루어 지면 live 서버에 배포되기 때문에 상세히 이루어져야함.
@@ -71,7 +70,7 @@
 ### 5.TEST
 
 <div style="text-align: center;">
-<img style="" height="204" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\hubflow4.png" width="602"/>
+<img style="" height="204" src="https://user-images.githubusercontent.com/54024213/143217057-7edc2799-5a07-4edb-adb6-c358e729087c.png" width="602"/>
  </div>
 <br>
 
@@ -82,7 +81,7 @@
 ### 6.master로 merge되고 push 되었을 때는 즉시 배포 되어야한다!!
 
 <div style="text-align: center;">
-<img style="" height="204" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\hubflow5.png" width="602"/>
+<img style="" height="204" src="https://user-images.githubusercontent.com/54024213/143217057-7edc2799-5a07-4edb-adb6-c358e729087c.png" width="602"/>
  </div>
 <br>
 
@@ -91,7 +90,7 @@
 
 ***
 
-## GitHub-Flow 의 장단점
+## GitHub Flow 의 장단점
 
 ### GOOD
 
@@ -111,7 +110,7 @@
 
 ***
 
-## 📃 Git-Flow
+## 📃 [Git Flow](https://github.com/nvie/gitflow)
 
 * 5개의 저장소 `master , develop, feature, release, hofix` 를 통해 브랜치를 관리하는 전략   
   <br>
@@ -119,7 +118,8 @@
 ### `master`
 
 <div style="text-align: center;">
-<img height="295" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\gitflow_main.png" width="550"/>
+<img height="295" src="https://user-
+images.githubusercontent.com/54024213/143217363-af7cc73b-a2d6-4b11-9976-955931649c66.png" width="550"/>
 </div>
 <br>
 
@@ -138,7 +138,7 @@
 ### `feature`
 
 <div style="text-align: center;">
-<img height="295" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\gitflow_feature.png" width="550"/>
+<img height="295" src="https://user-images.githubusercontent.com/54024213/143217361-8d29d224-43b0-44b2-bc12-a9321cd96334.png" width="550"/>
 </div>
 <br>
 
@@ -150,7 +150,8 @@
 ### `release`
 
 <div style="text-align: center;">
-<img height="295" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\gitflow_release.png" width="550"/>
+<img height="295" src="https://user-
+images.githubusercontent.com/54024213/143217366-0b0c9740-ef11-4451-976c-97f43d3578bc.png" width="550"/>
 </div>
 <br>
 
@@ -163,7 +164,7 @@
 ### `hotfix`
 
 <div style="text-align: center;">
-<img height="295" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\gitflow_hotfix.png" width="550"/>
+<img height="295" src="https://user-images.githubusercontent.com/54024213/143217362-27a543d8-f159-49b3-964a-9e9ac3d65dec.png" width="550"/>
 </div>
 <br>
 
@@ -173,9 +174,9 @@
 <br>
 
 ### 실행 흐름
-
-<img height="800" src="C:\Users\CKIRUser\IdeaProjects\BAEKJOON_Algorithm\src\SeLab\Solution_2021_11_15\README\image\gitflow.png"/>
-
+<div style="text-align: center">
+<img height="800" src="https://user-images.githubusercontent.com/54024213/143217355-c71fde39-b984-4aa8-af48-3cf90c4b062b.png"/>
+</div>
 **1. 신규 기능 개발**
 
 * `develop` 으로 부터 신규 개발을 위한 `feature` 브랜치 생성
@@ -185,12 +186,12 @@
 * QA와 TEST 를 위한 `release` 브랜치 생성 (오류 발생시 내부에서 수정)
     * -> 동기화를 위해 `develop` 에 `merge`
 
-**3. 배포후 관리**
+**3. 배포후 관리**~~~~
 
 * `master`에서 버그 발견시 `hotfix` 브랜치 생성 -> `master` 와 `develop`에 동시화
   <br><br>
 ***
-## Git-Flow 의 장단점
+## Git Flow 의 장단점
 
 ### GOOD
 * `feature` 브랜치는 `sourcetree / gitkraken` 같은 개발자 로컬 repo 에 저장 관리하여 타 개발자의 영향 없이 순수 개발을 진행할 수 있다. 
@@ -204,7 +205,7 @@
 * `feature` 브랜지 `merge` 및 `review` 에 많은 시간이 소모된다.
 * `Git Flow `사상은 대체로 장기 프로젝트에 적합한 방식으로 민첩한 배포가 필요한 프로젝트에는 적합하지 않다.
 ***
-## GitLab-Flow
+## [GitLab Flow](https://scottchacon.com/2011/08/31/github-flow.html)
 
 * `master, feature, production` 브랜치가 존재
 * `issue tracking`을 연동해 프로세스르 단순화 햐여` merge request`를 통해 승인이 되는 `issue` 만 `merge` 하도록 한다.
@@ -221,27 +222,6 @@
 ### `production`
 
 * Git Flow의 master와 같다. 배포 브랜치로서  안정된 소스코드가 되었을때 해당 브랜체에 병합하여 배포를 진행한다.
-* 견고한 test 를 원할 경우 pre-production 브랜치를 생성해 병합전 TEST SERVER를 통해 확인할 수 있따.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-svn
-## GitLab-Flow 의 장단점
-
-
-
+* 견고한 test 를 원할 경우 pre-production 브랜치를 생성해 병합전 TEST SERVER를 통해 확인할 수 있다.
+* 
 
