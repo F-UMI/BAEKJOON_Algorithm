@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class baekjoon1100 {
     public final static String[][] CHESSBOARD = new String[8][8];
     public final static int ZERO = 0;
-    public final static String REGEX = ""
+    public final static String REGEX = "";
     public final static int TWO = 2;
 
     public static void main(String[] args) {
@@ -31,18 +31,21 @@ public class baekjoon1100 {
         for (int i = 0; i < 8; i++){
             for (int j = 0; j < 8; j++){
                 if((isOdd(i) && isOdd(j) || !isOdd(i) && !isOdd(j))) {
-                    CHESSBOARD[i][j]
+                    CHESSBOARD[i][j] = String.valueOf(1);
                 }
             }
         }
-
+        return true;
     }
+
+
     public static boolean isOdd(int num) {
         if(num % 2 == 0) return true;
         return false;
     }
 
     public static String isK(String piece ){
-        if(piece.equals("K"))
+        if(piece.equals("K"));
+        return "d";
     }
 }

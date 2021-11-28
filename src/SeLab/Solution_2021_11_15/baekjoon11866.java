@@ -10,21 +10,22 @@ public class baekjoon11866 {
         int peopleNumber = scanner.nextInt();
         int order = scanner.nextInt();
         scanner.close();
-        int count = ZERO, nextOrder = order;
+        int count = ZERO, nextOrder = order ;
         int[] permutation = new int[peopleNumber];
         int[] josephusPermutation = new int[peopleNumber];
-        for (int i : permutation){
-            i = 1;
+        for (int i = 1; i <= permutation.length; i++){
+            permutation[i-1] = i;
         }
         while (count != peopleNumber) {
-            if(permutation[nextOrder] == 1) {
-                josephusPermutation[count] = permutation[nextOrder];
-                permutation[order] = 0;
+            if(permutation[nextOrder] != ZERO) {
+                System.out.println("실행");
+                josephusPermutation[count] = nextOrder;
+                permutation[order] = ZERO;
                 count++;
                 nextOrder += order;
-                if(nextOrder > order) nextOrder = nextOrder - order;
+                if(nextOrder >= permutation.length) nextOrder = nextOrder - permutation.length;
             }
-            if(permutation[nextOrder] != 1) {
+            if(permutation[nextOrder] == ZERO) {
                 nextOrder++;
                 if(nextOrder > order) nextOrder = nextOrder - order;
             }
