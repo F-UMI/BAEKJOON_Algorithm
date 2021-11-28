@@ -1,4 +1,4 @@
-package SeLab.Solution_2021_11_15;
+package SeLab.Solution_2021_11_15.Week_1;
 
 import com.sun.org.apache.xerces.internal.impl.xs.SchemaNamespaceSupport;
 
