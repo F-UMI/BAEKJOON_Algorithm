@@ -2,8 +2,8 @@ package SeLab.Solution_2021_11_15.Week_2;
 
 import java.util.Scanner;
 
-/* 백준 1152번
-*
+/* 백준 1152번 단어의 개수 풀이
+* https://www.acmicpc.net/problem/1152
 * */
 public class beakjoon1152 {
 
@@ -18,8 +18,8 @@ public class beakjoon1152 {
   }
 
   public static int countWord(String[] string, int numberOfCharacters) {
-    for (int i = 0; i < string.length; i++) {
-      if (string[i].isEmpty()) {
+    for (String word : string) {
+      if (word.isEmpty()) {
         numberOfCharacters = string.length - REMOVE_SPACES;
       }
     }
