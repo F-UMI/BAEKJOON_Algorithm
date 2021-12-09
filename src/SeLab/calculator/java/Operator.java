@@ -1,9 +1,12 @@
+package SeLab.calculator.java;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
 public class Operator {
 
-  private List<String> operator;
+  private final List<String> operator = new ArrayList<>();
 
 
   public Operator(List<String> inputs) {
@@ -21,7 +24,8 @@ public class Operator {
   public void setOperator(String input) {
     operator.add(input);
   }
+
   public static boolean matchOperator(String input) {
-    return Pattern.matches(input,"\\+\\-\\*\\/");
+    return input.matches("[\\+\\-\\*\\/]");
   }
 }

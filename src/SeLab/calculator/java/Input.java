@@ -1,3 +1,5 @@
+package SeLab.calculator.java;
+
 import java.util.*;
 
 public class Input {

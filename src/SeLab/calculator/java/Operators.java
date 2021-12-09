@@ -1,3 +1,5 @@
+package SeLab.calculator.java;
+
 import java.util.function.IntBinaryOperator;
 
 public enum Operators {

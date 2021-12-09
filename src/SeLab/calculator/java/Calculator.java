@@ -1,3 +1,5 @@
+package SeLab.calculator.java;
+
 import java.util.*;
 
 public class Calculator {
@@ -7,13 +9,12 @@ public class Calculator {
   private final static int BEHIND_NUMBER = 2;
 
   protected int isProgressing(List<Integer> numbers, List<String> operator, int answer) {
-    for (int i = 0; i < operator.size(); i++) {
-      for (int j = 0; j < numbers.size() / 2; j++) {
-        answer += Operators.calculating(getIndexNumber(j, numbers),
-            getIndexOperator(i, operator),
-            getIndexNumber(j + 1, numbers));
-      }
+    for (int i = 0; i < operator.size() / 2; i++) {
+      answer += Operators.calculating(getIndexNumber(i, numbers),
+          getIndexOperator(i, operator),
+          getIndexNumber(i + 1, numbers));
     }
+
     return answer;
   }
 
