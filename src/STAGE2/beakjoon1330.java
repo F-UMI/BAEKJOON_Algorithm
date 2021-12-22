@@ -23,5 +23,4 @@ public class beakjoon1330 {
 		
 	}	
 	
-
 }
