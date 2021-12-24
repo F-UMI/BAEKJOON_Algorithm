@@ -12,6 +12,7 @@ public class baekjoon3_1110 {
 		
 		while (true) {
 			
+			
 			piece = loopN % 10;
 			
 			while (loopN != 0) {
