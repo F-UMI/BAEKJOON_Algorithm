@@ -15,6 +15,7 @@ public class baekjoon11_10871 {
 			arr[i] = in.nextInt();
 		}
  
+		
 		in.close();
         
 		for (int i = 0; i < N; i++) {
