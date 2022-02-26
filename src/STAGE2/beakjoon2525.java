@@ -8,6 +8,7 @@ public class beakjoon2525 {
     Scanner scanner = new Scanner(System.in);
     int hour = scanner.nextInt();
     int minute = scanner.nextInt();
+
     int cookingTime = scanner.nextInt();
     int[] answer = calculatingTime(hour,minute,cookingTime);
     System.out.println(answer[0] + " " + answer[1]);
