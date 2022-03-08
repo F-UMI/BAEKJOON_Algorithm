@@ -16,6 +16,7 @@ public class baekjoon10809 {
   }
 
 
+
   private static int findIndexOfAlphabet(String s) {
     for (char d = 97; d < 97 + NUMBER_OF_ALPHABETS; d++) {
       if (s.contains(d))
